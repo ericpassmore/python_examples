@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+from collections import Counter
+
 print ("Starting")
 statuses = {
     "Alice" : "offline",
@@ -12,4 +14,11 @@ def online_count(statuses):
     return len(new_dict)
 
 my_dict = online_count(statuses)
-print (my_dict)
+status_occurance = {
+    status: list(statuses.values()).count(status)
+    for status in set(statuses.values())
+}
+
+x = [1,2,3,4,1,2,6,7,82,7,1,4]
+print (list(dict.fromkeys(x)))
+print(dict(Counter(x)))
