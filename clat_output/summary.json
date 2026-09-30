@@ -1,0 +1,50 @@
+{
+  "input_csv": "/Users/eric/Downloads/Block Finance 10 Year - Data.csv",
+  "schedule": "flat",
+  "config": {
+    "initial_clat": 1000000.0,
+    "term_years": 20,
+    "section_7520_rate": 0.056,
+    "shark_fin_growth": 0.22,
+    "first_block_year": 1970,
+    "sp500_weight": 0.72,
+    "cash_weight": 0.03,
+    "baa_corporate_bond_weight": 0.15,
+    "gold_weight": 0.1,
+    "cagr_bin_width": 0.01
+  },
+  "portfolio_weights": {
+    "sp500": 0.72,
+    "cash": 0.03,
+    "baa_corporate_bond": 0.15,
+    "gold": 0.1
+  },
+  "first_year_payment": 84374.95586704471,
+  "nominal_total_scheduled_charitable_payments": 1687499.1173408944,
+  "annual_return_years_loaded": [
+    1928,
+    2024
+  ],
+  "rolling_ten_year_blocks": 46,
+  "ordered_twenty_year_paths": 2116,
+  "exhausted_paths": 151,
+  "exhaustion_rate": 0.07136105860113422,
+  "remainder_percentiles": {
+    "p10": 338501.0627903273,
+    "p25": 1217489.2703455894,
+    "median": 2532543.554721052,
+    "p75": 3986256.4127295627,
+    "p90": 5517642.431980919
+  },
+  "mean_remainder": 2731000.4707615636,
+  "minimum_remainder": 0.0,
+  "maximum_remainder": 8510901.742850846,
+  "same_cagr_order_reversal_pairs": 1035,
+  "order_reversal_pairs_with_different_sequence_results": 1021,
+  "files": {
+    "path_summary": "path_summary.csv",
+    "annual_detail": "annual_detail.csv",
+    "similar_cagr_comparisons": "similar_cagr_comparisons.csv",
+    "order_reversal_comparisons": "order_reversal_comparisons.csv"
+  }
+}
