@@ -1,5 +1,5 @@
 {
-  "input_csv": "/Users/eric/Downloads/Block Finance 10 Year - Data.csv",
+  "input_csv": "/Users/eric/Documents/FinanceData/Block Finance 10 Year - Data.csv",
   "schedule": "flat",
   "config": {
     "initial_clat": 1000000.0,

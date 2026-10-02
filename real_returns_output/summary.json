@@ -1,0 +1,44 @@
+{
+  "input_csv": "/Users/eric/Documents/FinanceData/Block Finance 10 Year - Data.csv",
+  "config": {
+    "first_block_year": 1970,
+    "block_years": 10,
+    "path_years": 20
+  },
+  "portfolio_weights_percent": {
+    "sp500": 72.0,
+    "tbills": 3.0,
+    "corp_bonds": 15.0,
+    "gold": 10.0
+  },
+  "annual_return_years_loaded": [
+    1928,
+    2024
+  ],
+  "rolling_block_count": 46,
+  "ordered_path_count": 2116,
+  "real_cagr_distribution": {
+    "p10": 0.036586147187067763,
+    "p25": 0.051639189057987034,
+    "median": 0.06879542859624754,
+    "p75": 0.08332378893722758,
+    "p90": 0.09383868963781461,
+    "mean": 0.0667907579027347,
+    "minimum": -0.007948015199328418,
+    "maximum": 0.11866800749661532
+  },
+  "ending_value_of_one_distribution": {
+    "p10": 2.051672388128749,
+    "p25": 2.7373808965931974,
+    "median": 3.783482721049058,
+    "p75": 4.956391463592329,
+    "p90": 6.012648131062155,
+    "mean": 3.9377635788550633,
+    "minimum": 0.8524886525136778,
+    "maximum": 9.41942428663922
+  },
+  "files": {
+    "path_summary": "path_summary.csv",
+    "annual_detail": "annual_detail.csv"
+  }
+}

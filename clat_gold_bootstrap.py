@@ -8,7 +8,7 @@ automatically.
 
 Examples:
   python clat_gold_bootstrap.py \
-      "/Users/eric/Downloads/Block Finance 10 Year - Data.csv"
+      "/Users/eric/Documents/FinanceData/Block Finance 10 Year - Data.csv"
   python clat_gold_bootstrap.py data.csv --schedule flat --output-dir flat_run
 
 The default portfolio is 72% S&P 500, 3% 3-month Treasury bills (cash), 15%
